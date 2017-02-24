@@ -1,0 +1,56 @@
+p {color: #ff0000;
+ font-family:Arial;                 
+ text-decoration: underline;                 
+ font-weight: bold;                            
+  }                   
+ a{                                         
+   color:green;                            
+ }
+body{
+background-color: #000;
+}
+#container{
+	background: #fff;
+	height: 80%;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+header, #banner{
+	background: red;
+	height: 10%;
+	width: 85%x;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#banner{
+	background: #666;
+	height: 10%;
+}
+footer{
+	background: blue;
+	height: 30%;
+	width: 85%;
+	
+}
+article{
+	background: yellow;
+	height: 22%x;
+	width: 40%;
+	display: inline-block;
+	box-sizing:border-box;
+	padding:1%;
+}
+@media screen and (max-width: 800px){
+	body{
+		background: yellow;
+	}
+	article{
+	display: block;
+	width: 100%;
+	background: green	background: green;
+}
+}
+
